@@ -13,10 +13,10 @@ The script differs slightly from the standard [perspective transform tutorials] 
 
 ## Example picture
 
-Here is the input image:
+Here is the input image:  
 ![input.jpg](https://github.com/fbieberly/document_warp/wiki/input.jpg?raw=true "input.jpg")
 
-And here is the output image:
+And here is the output image:  
 ![output.jpg](https://github.com/fbieberly/document_warp/wiki/output.jpg?raw=true "output.jpg")
 
 
