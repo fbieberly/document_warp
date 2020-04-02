@@ -1,5 +1,5 @@
 # Document warp
-A script for performing perspective transforms on images of pieces of paper.
+A script for performing perspective transforms on images of documents to give a head-on view of them.
 
 Please read the wiki for more information: https://github.com/fbieberly/document_warp/wiki  
 
