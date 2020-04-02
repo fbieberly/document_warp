@@ -25,7 +25,7 @@ And here is the output image:
 
 Should work with either Python 2.X or 3.X
 
-I use:  
+Requires that you have the following packages installed:  
 [OpenCV] for the image processing.  
 [NumPy] and [SciPy] for the math and data types.  
 
