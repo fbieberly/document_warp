@@ -5,11 +5,21 @@ Please read the wiki for more information: https://github.com/fbieberly/document
 
 ## Description
 
-This script is designed to take an image of a document and perform a perspective transform of the image to produce an output image of the document as it would appear from a head-on perspective.  
+This script is designed to take an image of a document and perform a perspective transform to produce an output image as the document would appear from a head-on perspective.  
 
-The script differs slightly from the standard perspective [transform tutorials] in that it can warp shapes that are non-convex contours with more than 4 points (for example a document that had a sharp fold in it). This only works if a contour is detected around the document.  
+The script differs slightly from the standard [perspective transform tutorials] in that it can warp shapes that are non-convex contours with more than 4 points (for example a document that has a sharp fold in it). This only works if a contour is detected around the document.  
 
 [transform tutorials]: https://docs.opencv.org/3.4/da/d6e/tutorial_py_geometric_transformations.html
+
+## Example picture
+
+Here is the input image:
+![input.jpg](https://github.com/fbieberly/document_warp/wiki/input.jpg?raw=true "input.jpg")
+
+And here is the output image:
+![output.jpg](https://github.com/fbieberly/document_warp/wiki/output.jpg?raw=true "output.jpg")
+
+
 
 ## Dependencies
 
@@ -44,3 +54,4 @@ pip install opencv-python numpy scipy
     1. The script doesn't try to adjust color/darkness so the output image will probably still look slightly bent because of the lighting of the original image.
 1. Hit 's' to save the output image (defaults to 'warp_output.jpg')
     1. Only works while the output image is visible.
+
