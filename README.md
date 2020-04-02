@@ -9,7 +9,7 @@ This script is designed to take an image of a document and perform a perspective
 
 The script differs slightly from the standard [perspective transform tutorials] in that it can warp shapes that are non-convex contours with more than 4 points (for example a document that has a sharp fold in it). This only works if a contour is detected around the document.  
 
-[transform tutorials]: https://docs.opencv.org/3.4/da/d6e/tutorial_py_geometric_transformations.html
+[perspective transform tutorials]: https://docs.opencv.org/3.4/da/d6e/tutorial_py_geometric_transformations.html
 
 ## Example picture
 
