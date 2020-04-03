@@ -42,6 +42,7 @@ pip install opencv-python numpy scipy
 1. Use the mouse to left-click on 4 points that are close to the corners of the document in your image.
     1. It's best if you click on points that are outside the corners of the document
     1. Red lines will be drawn, it's OK if they cross over parts of the document.
+    1. Right-click to clear all the points you've selected.
 1. Hit the 'a' key to try to perform automatic selection of a bounding contour.
     1. The automatic selection does two things: gets 4 corner points that are on the bounding contour (for a regular perspective transform) and finds a contour around the document (for a grid perspective transform).
     1. Automatic selection will fail if the script cannot detect a contour around the document. High contrast images of the document against a background will help.
