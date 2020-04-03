@@ -1,8 +1,6 @@
 # Document warp
 A script for performing perspective transforms on images of documents to give a head-on view of them.
 
-Please read the wiki for more information: https://github.com/fbieberly/document_warp/wiki  
-
 ## Description
 
 This script is designed to take an image of a document and perform a perspective transform to produce an output image as the document would appear from a head-on perspective.  
