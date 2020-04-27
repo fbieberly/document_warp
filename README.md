@@ -46,7 +46,7 @@ pip install opencv-python numpy scipy
 1. Hit the 'a' key to try to perform automatic selection of a bounding contour.
     1. The automatic selection does two things: gets 4 corner points that are on the bounding contour (for a regular perspective transform) and finds a contour around the document (for a grid perspective transform).
     1. Automatic selection will fail if the script cannot detect a contour around the document. High contrast images of the document against a background will help.
-1. Hit 'w' for a 'normal' perspective transform. This works well on documents that are smooth and flat. It will work regarless of whether automatic selection was able to find corners or a contour around the document.
+1. Hit 'w' for a 'normal' perspective transform. This works well on documents that are smooth and flat. It will work regardless of whether automatic selection was able to find corners or a contour around the document.
 1. Hit 'g' for a 'grid' perspective transform.
     1. This only works if automatic selection was able to find a contour. 
     1. In the script you can change the number of points in the grid (more points takes noticibly longer).
